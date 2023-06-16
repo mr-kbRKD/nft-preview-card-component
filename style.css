@@ -1,9 +1,18 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Libre+Franklin:ital,wght@0,300;0,600;1,700&family=Outfit:wght@300;400;600&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+:root{
+    --Soft-blue: hsl(215, 51%, 70%);
+   --Cyan: hsl(178, 100%, 50%);
+   --Very-dark-blue : hsl(217, 54%, 11%);
+   --Very-dark-blue : hsl(216, 50%, 16%);
+   --Very-dark-blue : hsl(215, 32%, 27%);
+   --White : hsl(0, 0%, 100%);
+}
 img{
     width: 100%;
 }
@@ -14,6 +23,9 @@ body{
     flex-direction: column;
     justify-content: center;
     background-color: hsl(217, 54%, 11%);
+    font-family: 'Be Vietnam Pro', sans-serif;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Outfit', sans-serif;
     
 }
 .container{
