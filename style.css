@@ -8,12 +8,34 @@
 :root{
     --Soft-blue: hsl(215, 51%, 70%);
    --Cyan: hsl(178, 100%, 50%);
-   --Very-dark-blue : hsl(217, 54%, 11%);
+   /* main bg */
+   --Very-dark-blue : hsl(217, 54%, 11%);  
+   /* card bg */
    --Very-dark-blue : hsl(216, 50%, 16%);
+   /* line */
    --Very-dark-blue : hsl(215, 32%, 27%);
    --White : hsl(0, 0%, 100%);
 }
+
 img{
+    max-width:100%;
+}
+
+ul{
+    list-style-type: none;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    background-color: var(--Very-dark-blue);
+    color: hsl(0, 0%, 100%, 75%);
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! just commenting my css */
+/* img{
     width: 100%;
 }
 
@@ -23,9 +45,7 @@ body{
     flex-direction: column;
     justify-content: center;
     background-color: hsl(217, 54%, 11%);
-    font-family: 'Be Vietnam Pro', sans-serif;
-font-family: 'Libre Franklin', sans-serif;
-font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit', sans-serif;
     
 }
 .container{
@@ -44,6 +64,6 @@ font-family: 'Outfit', sans-serif;
 .container img{
     width: 335px;
     /* margin-top: 21px; */
-    padding: 10px;
+    /* padding: 10px;
     border-radius: 20px;
-}
+} */ */
